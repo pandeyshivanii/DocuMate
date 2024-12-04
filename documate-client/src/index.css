@@ -1,0 +1,65 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+
+:root {
+     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+     line-height: 1.5;
+     font-weight: 400;
+     --primary-red-color: #027973;
+     --primary-black-color: #3f3e3e;
+}
+
+body {
+     overflow-x: hidden;
+     background-color: #232323;
+     color: #f1f1f1;
+}
+
+button {
+     padding: 0.3rem 0.7rem;
+     background-color: var(--primary-red-color);
+     border: none;
+     /* outline: 3px solid red; */
+     /* outline-offset: 0.1rem; */
+     color: #fff;
+     font-weight: 600;
+     letter-spacing: 1px;
+     text-transform: capitalize;
+     font-size: 17px;
+     transition: scale 100ms ease-in-out;
+     cursor: pointer;
+     white-space: nowrap;
+     border-radius: 5px;
+}
+
+button:not(:disabled):active {
+     scale: 0.95;
+}
+
+button:disabled {
+     cursor: not-allowed;
+}
+
+/* width */
+::-webkit-scrollbar {
+     width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+     background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+     background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}

@@ -1,0 +1,33 @@
+.error-box{
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+     height: 85.8dvh;
+}
+
+.error-icon{
+     font-size: 100px;
+     color: #ff3300;
+}
+
+.error-heading{
+     margin: 2rem 0;
+}
+
+.error-text{
+     font-size: 18px;
+     text-transform: uppercase;
+     margin: 0 0 1rem 0;
+     color: #ee0303;
+     text-decoration: underline;
+     text-underline-offset: 5px;
+}
+
+.error-button{
+     margin-block: 20px;
+     background-color: var(--primary-color);
+     color: #fff;
+}

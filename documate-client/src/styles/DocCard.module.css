@@ -1,0 +1,72 @@
+.doc-card {
+     /* min-width: 250px;
+     max-width: 270px; */
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 5px;
+}
+
+.doc-profile {
+     padding: 0.6rem;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     gap: 8px;
+}
+
+.doc-user-info {
+     width: 100%;
+     color: gray;
+     font-size: 12px;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
+
+.doc-profile-img {
+     height: 2.5rem;
+     aspect-ratio: 1;
+     border-radius: 50%;
+     padding: 5px;
+     overflow: hidden;
+}
+
+.doc-profile-img>img {
+     width: 100%;
+}
+
+.doc-profile-img+div {
+     padding-left: 5px;
+     border-left: 1px solid red;
+     width: 70%;
+}
+
+.doc-title {
+     width: 100%;
+     color: var(--primary-red-color);
+     font-size: 18px;
+     font-weight: 600;
+     text-transform: uppercase;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
+
+.icon {
+     border-top: 1px solid var(--primary-red-color);
+     position: relative;
+}
+
+.icon>img {
+     width: 100%;
+}
+
+.doc-view-status {
+     position: absolute;
+     right: 10px;
+     bottom: 5px;
+}
+
+.doc-view-status>svg{
+     font-size: 25px;
+     color: var(--primary-red-color);
+}
