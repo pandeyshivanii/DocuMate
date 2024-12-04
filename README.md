@@ -26,7 +26,7 @@ DocuMate is a real-time collaborative document editing application similar to Go
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/codemaniac-sahil/documate.git
+    git clone https://github.com/pandeyshivanii/DocuMate.git
     ```
 
 2. Navigate to the project directory:
